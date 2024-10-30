@@ -27,5 +27,5 @@
 		"phoebe",
 	];
 
-	const [, , bestFriend, ...rest] = myFriends;
+	const [, , bestFriend, ...otherFriends] = myFriends;
 }
