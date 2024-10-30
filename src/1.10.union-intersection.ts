@@ -1,6 +1,5 @@
 {
-	//
-	// union types
+	// Union Types
 
 	type FrontendDeveloper1 = "fakibazDeveloper" | "juniorDeveloper";
 	type FullstackDeveloper1 = FrontendDeveloper1 | "expertDeveloper";
@@ -21,6 +20,8 @@
 		gender: "male",
 		bloodGroup: "O+",
 	};
+
+    // Intersection Types
 
 	type FrontendDeveloper2 = {
 		skills: string[];
