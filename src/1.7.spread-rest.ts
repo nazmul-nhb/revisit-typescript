@@ -15,6 +15,7 @@
 	console.log(allBooks);
 	console.log(books1);
 
+    // rest operator
 	const greetCriminals = (...criminals: string[]): void => {
 		criminals.forEach((criminal) => console.log(`Hello ${criminal}`));
 	};

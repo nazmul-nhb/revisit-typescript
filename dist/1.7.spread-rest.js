@@ -13,6 +13,7 @@
     books1.push(...books2);
     console.log(allBooks);
     console.log(books1);
+    // rest operator
     const greetCriminals = (...criminals) => {
         criminals.forEach((criminal) => console.log(`Hello ${criminal}`));
     };
