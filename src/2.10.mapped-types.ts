@@ -15,6 +15,10 @@
 		width: number;
 	};
 
+	// type AreaString = {
+	// 	[key in keyof AreaProps]: string;
+	// };
+
 	type Height = AreaProps["height"]; // look up type
 	// type AreaString = {
 	//   height: string;
